@@ -1,0 +1,16 @@
+{
+  "name": "discord-datadump-scraper",
+  "version": "1.0.0",
+  "description": "Grabs all files from Discord'a CDN linked in a Discord Data Dump",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Joshverd",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^2.3.0",
+    "dree": "^2.1.6"
+  }
+}
